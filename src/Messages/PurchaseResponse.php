@@ -8,7 +8,7 @@ use Omnipay\Common\Message\RedirectResponseInterface;
 
 class PurchaseResponse extends AbstractResponse implements RedirectResponseInterface
 {
-    const TEST_ENDPOINT = 'https://euro.test.modirum.com/vpos/shophandlermpi';
+    const TEST_ENDPOINT = 'https://eurocommerce-test.cardlink.gr/vpos/shophandlermpi';
     const LIVE_ENDPOINT = 'https://vpos.eurocommerce.gr/vpos/shophandlermpi';
     const VERSION = 2;
 
